@@ -1,0 +1,75 @@
+body{
+    background: rgb(105, 105, 105);
+}
+.full{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.main{
+    width: 500px;
+    margin: 0 auto;
+}
+.project-info{
+    text-align: center;
+    color: rgb(23, 197, 0);
+    margin: 50px auto;
+    font-size: 50px;
+    font-family: cursive;
+}
+.output-area{
+    width: 500px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin:5px auto;
+    padding: 5px;
+    align-items: center;
+    text-align: right;
+    background-color: #fff;
+}
+.operation-area{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.operation-area button{
+    font-size: 28px;
+    height: 36px;
+    border: 2px solid transparent;
+    font-weight: bold;
+}
+.zero,.one{
+    color:rgb(255, 136, 0);
+    background-color: rgb(2, 43, 44);
+}
+.zero:hover,.one:hover{
+    color:rgb(2, 43, 44);
+    background-color: rgb(255, 136, 0);
+}
+.clear{
+    color:rgb(255, 255, 255);
+    background-color: rgb(38, 161, 0);
+}
+.clear:hover{
+    color: rgb(38, 161, 0);
+    background-color: rgb(255, 255, 255); 
+}
+.equal{
+    color:rgb(247, 2, 177); 
+    background-color: rgb(49, 31, 73);
+}
+.equal:hover{
+    color: rgb(49, 2, 110);
+    background-color: rgb(209, 43, 162);
+}
+.addition,.subtraction,.multiplication,.divition{
+    color:red;
+    background-color: rgb(0, 0, 0);
+}
+.addition:hover,.subtraction:hover,.multiplication:hover,.divition:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
